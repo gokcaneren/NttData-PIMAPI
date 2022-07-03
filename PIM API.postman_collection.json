@@ -1,0 +1,748 @@
+{
+	"info": {
+		"_postman_id": "6a588d0e-238f-4e8a-a0de-718f7a619536",
+		"name": "PIM API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20552973"
+	},
+	"item": [
+		{
+			"name": "PIM API Embed",
+			"item": [
+				{
+					"name": "ProductRelations",
+					"item": [
+						{
+							"name": "Embed List Of Products in German(DE)-Product Relations Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-DE&embed=productRelations&embed_only=true",
+									"host": [
+										"{{urlGetProducts}}"
+									],
+									"query": [
+										{
+											"key": "productIds",
+											"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+										},
+										{
+											"key": "locale",
+											"value": "de-DE"
+										},
+										{
+											"key": "embed",
+											"value": "productRelations"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed List Of Products in German For Austria(AT)-Product Relations Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-AT&embed=productRelations&embed_only=true",
+									"host": [
+										"{{urlGetProducts}}"
+									],
+									"query": [
+										{
+											"key": "productIds",
+											"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+										},
+										{
+											"key": "locale",
+											"value": "de-AT"
+										},
+										{
+											"key": "embed",
+											"value": "productRelations"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed Get Product By Id in German(DE)-Product Relations Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProductById}}B15CR22N1?locale=de-DE&embed=productRelations&embed_only=true",
+									"host": [
+										"{{urlGetProductById}}B15CR22N1"
+									],
+									"query": [
+										{
+											"key": "locale",
+											"value": "de-DE"
+										},
+										{
+											"key": "embed",
+											"value": "productRelations"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed Get Product By Id in German For Austria(AT)-Product Relations Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProductById}}B27CS22G0?locale=de-AT&embed=productRelations&embed_only=true",
+									"host": [
+										"{{urlGetProductById}}B27CS22G0"
+									],
+									"query": [
+										{
+											"key": "locale",
+											"value": "de-AT"
+										},
+										{
+											"key": "embed",
+											"value": "productRelations"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "TechnicalDocuments",
+					"item": [
+						{
+							"name": "Embed List Of Products in German(DE)-Technical Documents Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-DE&embed=technicalDocuments&embed_only=true",
+									"host": [
+										"{{urlGetProducts}}"
+									],
+									"query": [
+										{
+											"key": "productIds",
+											"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+										},
+										{
+											"key": "locale",
+											"value": "de-DE"
+										},
+										{
+											"key": "embed",
+											"value": "technicalDocuments"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed List Of Products in German For Austria(AT)-Technical Documents Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-AT&embed=technicalDocuments&embed_only=true",
+									"host": [
+										"{{urlGetProducts}}"
+									],
+									"query": [
+										{
+											"key": "productIds",
+											"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+										},
+										{
+											"key": "locale",
+											"value": "de-AT"
+										},
+										{
+											"key": "embed",
+											"value": "technicalDocuments"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed Get Product By Id in German(DE)-Technical Documents Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProductById}}B15CR22N1?locale=de-DE&embed=technicalDocuments&embed_only=true",
+									"host": [
+										"{{urlGetProductById}}B15CR22N1"
+									],
+									"query": [
+										{
+											"key": "locale",
+											"value": "de-DE"
+										},
+										{
+											"key": "embed",
+											"value": "technicalDocuments"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Embed Get Product By Id in German For Austria(AT)-Technical Documents Only",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "X-Flow-ID",
+										"value": "GKY7oDhpSiKY_gAAAABZ_A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{urlGetProductById}}B27CS22G0?locale=de-AT&embed=technicalDocuments&embed_only=true",
+									"host": [
+										"{{urlGetProductById}}B27CS22G0"
+									],
+									"query": [
+										{
+											"key": "locale",
+											"value": "de-AT"
+										},
+										{
+											"key": "embed",
+											"value": "technicalDocuments"
+										},
+										{
+											"key": "embed_only",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Embed List Of Products in German(DE)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-DE&embed=productRelations%2CtechnicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProducts}}"
+							],
+							"query": [
+								{
+									"key": "productIds",
+									"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+								},
+								{
+									"key": "locale",
+									"value": "de-DE"
+								},
+								{
+									"key": "embed",
+									"value": "productRelations%2CtechnicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Embed List Of Products in German For Austria(AT)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-AT&embed=productRelations%2CtechnicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProducts}}"
+							],
+							"query": [
+								{
+									"key": "productIds",
+									"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+								},
+								{
+									"key": "locale",
+									"value": "de-AT"
+								},
+								{
+									"key": "embed",
+									"value": "productRelations%2CtechnicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Embed Get Product By Id in German(DE)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProductById}}B15CR22N1?locale=de-DE&embed=productRelations%2CtechnicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProductById}}B15CR22N1"
+							],
+							"query": [
+								{
+									"key": "locale",
+									"value": "de-DE"
+								},
+								{
+									"key": "embed",
+									"value": "productRelations%2CtechnicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Embed Get Product By Id in German For Austria(AT)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProductById}}B27CS22G0?locale=de-AT&embed=productRelations%2CtechnicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProductById}}B27CS22G0"
+							],
+							"query": [
+								{
+									"key": "locale",
+									"value": "de-AT"
+								},
+								{
+									"key": "embed",
+									"value": "productRelations%2CtechnicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Embed Product Variants in German(DE)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProductVariants}}KIF42P60-02?locale=de-DE&embed=technicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProductVariants}}KIF42P60-02"
+							],
+							"query": [
+								{
+									"key": "locale",
+									"value": "de-DE"
+								},
+								{
+									"key": "embed",
+									"value": "technicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Embed Product Variants in German For Austria(AT)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Flow-ID",
+								"value": "GKY7oDhpSiKY_gAAAABZ_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{urlGetProductVariants}}KIF42P60-02?locale=de-AT&embed=technicalDocuments&embed_only=true",
+							"host": [
+								"{{urlGetProductVariants}}KIF42P60-02"
+							],
+							"query": [
+								{
+									"key": "locale",
+									"value": "de-AT"
+								},
+								{
+									"key": "embed",
+									"value": "technicalDocuments"
+								},
+								{
+									"key": "embed_only",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Comma separated list of sub resources related to this resource."
+		},
+		{
+			"name": "List Of Products in German(DE)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-DE",
+					"host": [
+						"{{urlGetProducts}}"
+					],
+					"query": [
+						{
+							"key": "productIds",
+							"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+						},
+						{
+							"key": "locale",
+							"value": "de-DE"
+						}
+					]
+				},
+				"description": "Product endpoint method works to retrieve to obtain product information that is maintained within BSH content management systems. This consists overall combination of marketing texts, technical attributes, product related media(i.e images, documents, linedrawings) and some sort of marketing feature information called as feature links for product. Information for that endpoint is specified for every language and already translated in terms of BSH business process contexts. Endpoint provides public information for BSH which is currently available on our official websites that serves PIM data to our latest consumers."
+			},
+			"response": []
+		},
+		{
+			"name": "List Of Products in German For Austria(AT)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProducts}}?productIds=B46FT64N0,B15CR22N1,B27CS22G0&locale=de-AT",
+					"host": [
+						"{{urlGetProducts}}"
+					],
+					"query": [
+						{
+							"key": "productIds",
+							"value": "B46FT64N0,B15CR22N1,B27CS22G0"
+						},
+						{
+							"key": "locale",
+							"value": "de-AT"
+						}
+					]
+				},
+				"description": "Product endpoint method works to retrieve to obtain product information that is maintained within BSH content management systems. This consists overall combination of marketing texts, technical attributes, product related media(i.e images, documents, linedrawings) and some sort of marketing feature information called as feature links for product. Information for that endpoint is specified for every language and already translated in terms of BSH business process contexts. Endpoint provides public information for BSH which is currently available on our official websites that serves PIM data to our latest consumers."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Id in German(DE)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProductById}}B15CR22N1?locale=de-DE",
+					"host": [
+						"{{urlGetProductById}}B15CR22N1"
+					],
+					"query": [
+						{
+							"key": "locale",
+							"value": "de-DE"
+						}
+					]
+				},
+				"description": "Product endpoint method works to retrieve to obtain product information that is maintained within BSH content management systems. This consists overall combination of marketing texts, technical attributes, product related media(i.e images, documents, linedrawings) and some sort of marketing feature information called as feature links for product. Information for that endpoint is specified for every language and already translated in terms of BSH business process contexts. Endpoint provides public information for BSH which is currently available on our official websites that serves PIM data to our latest consumers."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Id in German For Austria(AT)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProductById}}B27CS22G0?locale=de-AT",
+					"host": [
+						"{{urlGetProductById}}B27CS22G0"
+					],
+					"query": [
+						{
+							"key": "locale",
+							"value": "de-AT"
+						}
+					]
+				},
+				"description": "Product endpoint method works to retrieve to obtain product information that is maintained within BSH content management systems. This consists overall combination of marketing texts, technical attributes, product related media(i.e images, documents, linedrawings) and some sort of marketing feature information called as feature links for product. Information for that endpoint is specified for every language and already translated in terms of BSH business process contexts. Endpoint provides public information for BSH which is currently available on our official websites that serves PIM data to our latest consumers."
+			},
+			"response": []
+		},
+		{
+			"name": "Product Variants in German(DE)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProductVariants}}KIF42P60-02?locale=de-DE",
+					"host": [
+						"{{urlGetProductVariants}}KIF42P60-02"
+					],
+					"query": [
+						{
+							"key": "locale",
+							"value": "de-DE"
+						}
+					]
+				},
+				"description": "Product-variant endpoint method works to retrieve product-variant information that is maintained within BSH content management systems. They are named in different conventions for different systems of BSH such as E-Numbers or VIB/KIs."
+			},
+			"response": []
+		},
+		{
+			"name": "Product Variants in German For Austria(AT)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Flow-ID",
+						"value": "GKY7oDhpSiKY_gAAAABZ_A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{urlGetProductVariants}}KIF42P60-02?locale=de-AT",
+					"host": [
+						"{{urlGetProductVariants}}KIF42P60-02"
+					],
+					"query": [
+						{
+							"key": "locale",
+							"value": "de-AT"
+						}
+					]
+				},
+				"description": "Product-variant endpoint method works to retrieve product-variant information that is maintained within BSH content management systems. They are named in different conventions for different systems of BSH such as E-Numbers or VIB/KIs."
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "bK5QwmRfe49nvaNSOn92Q9GarDue7SqW5RqtQudv",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "urlGetProducts",
+			"value": "https://iajyt0rjml.execute-api.eu-central-1.amazonaws.com/v1/products",
+			"type": "string"
+		},
+		{
+			"key": "urlGetProductById",
+			"value": "https://iajyt0rjml.execute-api.eu-central-1.amazonaws.com/v1/product/",
+			"type": "string"
+		},
+		{
+			"key": "urlGetProductVariants",
+			"value": "https://iajyt0rjml.execute-api.eu-central-1.amazonaws.com/v1/product-variants/",
+			"type": "string"
+		}
+	]
+}
